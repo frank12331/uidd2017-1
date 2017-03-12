@@ -4,7 +4,7 @@
 	position:absolute;
 	top:0px;
 	width:100%;
-	height:80px;
+	height:6.448vw;/*80px*/
 	z-index:50;
 	display:block;
 }
@@ -15,37 +15,37 @@
 	position:absolute;
 	top:0px;
 	left:0px;
-	width:100%;
-	height:531px;
+	width:100vw;
+	height:42.8vw;
 	z-index:1;
 }
 .page2{
 	background-color:#2a242b;
-	background-size:100%;
+	background-size:100vw;
 	position:absolute;
 	left:0px;
-	top:531px;
-	width:100%;
-	height:531px;
+	top:42.8vw;/*531px*/
+	width:100vw;
+	height:42.8vw;
 }
 .page3{
 	background-color:#f0e569;
-	background-size:100%;
+	background-size:100vw;
 	position:absolute;
 	left:0px;
-	top:1062px;
-	width:100%;
-	height:370px;
+	top:85.6vw;
+	width:100vw;
+	height:29.82297552vw;
 }
 .menu span img{
-	padding-top:10px;
-	width:50%;
+	padding-top:0.8vw;
+	width:5vw;
 }
 .icon{
 	position:absolute;
-	height:100%;
-	width:25%;
-	margin-left:5px;
+	height:10vw;
+	width:25vw;
+	margin-left:0.4vw;
 	
 }
 .pic{
@@ -53,53 +53,54 @@
 }
 .fintech{
 	position:absolute;
-	padding-top:25px;
-	padding-left:70px;
+	padding-top:2.01vw;
+	padding-left:5.64vw;
 	color:orange;
-	font-size:30px;
+	font-size:2.41vw;
+	font-family:Calibri;
 	
 }
 .home{
 	position:absolute;
-	margin-left:25%;
-	width:25%;
-	height:100%;
-	padding-top:25px;
+	margin-left:25vw;
+	width:30vw;
+	height:6.448vw;
+	padding-top:2.01vw;
 }
 .m_sub{
-	padding-left:30px;
+	padding-left:1.5vw;
 	color:white;
-	font-size:28px;
+	font-size:2.256vw;
 	
 }
 .p1_l_d{
 	display:flex;
 	position:absolute;
-	width:50%;
-	height:80px;
+	width:50vw;
+	height:6.448vw;
 	bottom:0px;
 	
 }
 .download,.store{
 	position:relative;
-	height:100%;
-	padding-left:5px;
+	height:6.448vw;
+	padding-left:0.403vw;
 }
 .download img{
 	height:75%;
-	padding-left:5px;
-	padding-top:20px;
+	padding-left:0.403vw;
+	padding-top:1.6vw;
 }
 .store img{
 	height:65%;
-	padding-top:15px;
+	padding-top:1.2vw;
 }
-
+/*第一頁 中間 下邊*/
 .p1_r_d{
 	display:flex;
 	position:absolute;
 	width:50%;
-	height:160px;
+	height:12.896vw;
 	bottom:0px;
 	right:0px;
 }
@@ -110,101 +111,126 @@
 .facebook img{
 	height:50%;
 	padding-left:0px;
-	padding-top:50px;
+	padding-top:4.03vw;
 }
 .facebook_f{
-	padding-left:300px;
+	padding-left:24.18vw;
 }
 /*第一頁 中間 右邊*/
 .p1_r_c{
 	display:flex;
 	position:absolute;
-	width:50%;
-	height:150px;
-	right:80px;
-	top:25%;
+	width:50vw;
+	height:12.09vw;
+	right:6.448vw;
+	top:10.7vw;
 	border-color:white;
 	border-style:solid;
-	border-width:5px;
+	border-width:0.403vw;
 	
 }
 .fintech_c{
-	width:120px;	
+	width:9.67vw;	
 }
 
 .fintech_c img{
-	margin-top:20px;
+	margin-top:1.61vw;
 	
 	height:70%;
 }
 .fintech_w{
-	padding-top:60px;
-	padding-left:5px;
+	padding-top:4.83vw;
+	padding-left:0.403vw;
 	color:orange;
-	font-size:40px;
-	
+	font-size:3.224vw;
+	font-family:Calibri;
 }
 .fintech_t{
-	font-size:30px;
-	padding:50px 50px 0px 60px;
+	font-size:2.41vw;
+	padding:4.03vw 2vw 0px 4.836vw;
 }
 /*第二頁*/
 .p2_c_t{
 	text-align:center;
 	position:absolute;
-	height:60%;
-	width:100%;
+	height:25.68vw;
+	width:100vw;
 	top:0px;
 }
 .feature{
-	padding:40px 300px 40px 300px;
-	height:30px;
-	font-size:40px;
+	padding:3.224vw 24.18vw 3.224vw 24.18vw;
+	height:2.418vw;
+	font-size:3.224vw;
 	color:orange;
 }
 .feature_icon{
-	padding-top:20px;
+	padding-top:1.612vw;
+	
+}
+.feature_icon img{
+	height:40%;
+	padding-left:0px;
+	padding-top:0.5vw;
 }
 .p2_c_d{
 	text-align:center;
 	position:absolute;
-	height:40%;
-	width:100%;
+	height:17.12vw;
+	width:100vw;
 	bottom:0px;
 }
 .p2_c_d_p1{
-	font-size:22px;
+	font-size:1.773vw;
 	color:orange;
-	padding:6px 25% 6px 25%;
+	padding:0.483vw 10vw 2vw 10vw;
+	
 }
 .p2_c_d_p2{
-	font-size:24px;
+	font-size:1.934vw;
 	color:orange;
 	border-style:solid;
-	border-width:2px;
+	border-width:0.161vw;
 	border-color:orange;
-	margin:6px 45% 6px 45%;
+	margin:0vw 45vw 0vw 45vw;
 }
 /*第三頁*/
 .p3_whole{
 	display:flex;
 	position:absolute;
-	width:100%;
-	height:100%;
+	width:100vw;
+	height:29.82297552vw;
 }
-.video{
-	margin:30px;
+/*參考資料 https://siongui.github.io/zh/2015/02/06/responsive-embed-youtube/*/
+.video-container{
+	
+	position: relative;
+	padding-right:30vw;
+	padding-bottom: 25vw;
+	margin:2.2vw;
+	height: 0;
+	overflow: hidden;
 }
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    width: 100%;
+    height: 100%;
+}
+
 .video_content{
-	margin-top:50px;
+	margin-top:2.03vw;
+	
 	
 }
 .video_title{
-	font-size:40px;
-	padding-right:50px;
+	font-size:3.224vw;
+	padding-right:4.03vw;
 }
 .video_text{
-	font-size:24px;
-	padding-top:30px;
-	padding-right:12px;
+	font-size:1.93vw;
+	padding-top:1vw;
+	padding-right:4vw;
 }
