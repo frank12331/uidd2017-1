@@ -4,6 +4,7 @@ body{
 	font-family:"Calibri";
 	overflow-x:hidden
 }
+
 .menu{
 	display:flex;
 	position:absolute;
@@ -67,16 +68,24 @@ body{
 }
 .home{
 	position:absolute;
-	margin-left:25vw;
+	margin-left:20vw;
 	width:30vw;
 	height:6.448vw;
 	padding-top:2.01vw;
+	cursor:pointer;
 }
 .m_sub{
 	padding-left:1.5vw;
 	color:white;
 	font-size:2.256vw;
 	
+}
+.about_list{
+	display:none;
+	position:absolute;
+	left:8.9vw;
+	color:white;
+	font-size:2.256vw;
 }
 .p1_l_d{
 	display:flex;
@@ -90,6 +99,9 @@ body{
 	position:relative;
 	height:6.448vw;
 	padding-left:0.403vw;
+}
+.store{
+	display:none;
 }
 .download img{
 	height:75%;
@@ -196,6 +208,7 @@ body{
 .p2_c_d_p2	img{
 	height:30%;
 	padding-left:0px;
+	bottom:5vw;
 	
 }
 /*第三頁*/
