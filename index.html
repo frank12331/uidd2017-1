@@ -2,6 +2,9 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="css/general.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+<script src="script/script.js"></script>
 <title>Fintech</title>
 </head>
 
@@ -13,16 +16,21 @@
 		<span class="fintech">Fintech</span>
 	</span>
 	<span class="home">
-		<span class="m_sub">Home</span>
-		<span class="m_sub">About</span>
-		<span class="m_sub">Sign in</span>
+		<span class="m_sub"><a>Home</a></span>
+		<span class="m_sub about"><a>About</a></span>
+		<span class="m_sub"><a>Sign in</a></span>
+		<div class='about_list'>
+			<div><a>History</a></div>
+			<div><a>Feature</a></div>
+			<div><a>How to use</a></div>
+		</div>
 	</span>
 </div>
 <div class="page1">
 	<div class="p1_l_d">
 		<span class="download"><img src="img/download-01.png"></span>
-		<span class="store"><img src="img/ios-01.png"></span>
-		<span class="store"><img src="img/and-01.png"></span>
+		<span class="store"><a href='#'><img src="img/ios-01.png"></a></span>
+		<span class="store"><a href='#'><img src="img/and-01.png"></a></span>
 	</div>
 	<div class="p1_r_d">
 		<span class="facebook facebook_f"><img src="img/FB-01.png"></span>
@@ -39,21 +47,21 @@
 	<div class="p2_c_t">
 		<div class="feature">Features</div>
 		<div class="feature_icon">
-			<span><img src="img/cheap-03.png"></span>
-			<span><img src="img/secure1-02.png"></span>
-			<span><img src="img/convenient-05.png"></span>
-			<span><img src="img/fast-04.png"></span>
-			<span><img src="img/smart-01.png"></span>
+			<span><img id='0' src="img/cheap1-03.png"></span>
+			<span><img id='1' src="img/secure-02.png"></span>
+			<span><img id='2' src="img/convenient-05.png"></span>
+			<span><img id='3' src="img/fast-04.png"></span>
+			<span><img id='4' src="img/smart-01.png"></span>
 		</div>
 	</div>
 	<div class="p2_c_d">
 		<div class="p2_c_d_p1">Secure Financial Services, Inc. provides hight quality trade analysis reports, starting with the standard profit and loss analysis, for targeted legal response.</div>
-		<div class="p2_c_d_p2"><img src="img/see_video.png"></div>
+		<div class="p2_c_d_p2" data-kind='0'><img src="img/see_video.png"></div>
 	</div>
 </div>
 <div class="page3">
 	<div class="p3_whole">
-		<span class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/QbTYWE2Bv00?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></span>
+		<span class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/TxWLybPwBzs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></span>
 		<span class="video_content">
 			<div class="video_title">How FinTech is Shaping the Future of Banking</div>
 			<div class="video_text">While FinTech is revolutionizing the banking industry and fiving millions of people access to financial services for the first time, new banking models are emerging with FinTech start-ups and tech firms potentially disrupting the status quo. But business schools and universities are now preparing future bankers for theses changes, says FinTech thought leader Hnri Arslanian.</div>
